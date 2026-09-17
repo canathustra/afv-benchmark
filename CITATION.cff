@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the exact version or commit of AFV Benchmark used in your work."
+type: software
+title: "AFV Benchmark: exploratory alpha-frequency measurement tools"
+version: 0.1.0
+date-released: 2026-09-17
+repository-code: "https://github.com/canathustra/afv-benchmark"
+url: "https://github.com/canathustra/afv-benchmark"
+authors:
+  - family-names: "Uğur"
+    given-names: "Uğurcan"
+abstract: >-
+  Early research software containing three exploratory frequency estimators,
+  explicit candidate diagnostics, bilateral sample-SD arithmetic, and synthetic
+  demonstrations. No final or clinically validated AFV method is claimed.
+keywords:
+  - EEG
+  - alpha frequency
+  - reproducibility
+  - research software
+license: MIT

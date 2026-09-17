@@ -1,0 +1,127 @@
+{
+  "package": "afv-benchmark",
+  "version": "0.1.0",
+  "status": "public_release",
+  "prepared_on": "2026-09-17",
+  "contents": "code_documentation_tests_synthetic_generators_only",
+  "hash_algorithm": "SHA-256",
+  "manifest_self_excluded": true,
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 483,
+      "sha256": "6e00baaf6a1a54930a66c2bb15984fd349834bdcef2e77f43e3476b57d42e9e6"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 128,
+      "sha256": "028a629121591a8db00b882a45f70e0742e86ee0240120cd6526efd678d58105"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 732,
+      "sha256": "320f558a8f7843043c9574b84cafa2fc954cfea4ee83c38d347f1f2e9761b258"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 748,
+      "sha256": "65954f156152c74f152f31402a3ee3674105c1e6383d14fd82316d97fc07cf81"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 987,
+      "sha256": "725d13c575c2c813127801d53ed4af9d0d4e58ec7a8fb387b1f3703d05e8ff59"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1083,
+      "sha256": "06d773206017dab6d89cc6cd1e6cdbb4e971aab5de4a8d24f50c4244c929faa8"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 270,
+      "sha256": "45b70fc0fec7cd08e94dcc0ed9516df8250bc39d563108a407145c34415ef449"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4242,
+      "sha256": "1cff65824a5b90de6c7c98409e3e8320b0cac5b0b516930facbd0bcc6491c8f4"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 643,
+      "sha256": "e8e7dbb3db9ec52e6f25d39031ff2fb0812d9a6019234099649020c2c2e20d06"
+    },
+    {
+      "path": "docs/METHODS.md",
+      "bytes": 5742,
+      "sha256": "ed5ba3821c236a8ad53edcff61df9f683eeceee6493aab3f381802f0cb728618"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 3442,
+      "sha256": "f9e9baf5a9520f237d109e2618e08c2ffe392eec1be90bc98505b26bf637ca63"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 1757,
+      "sha256": "3c84765c1bbfd00005c097c447b2e6afbe0b60e8f53031f8e526795606fa34a5"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 1746,
+      "sha256": "dca68f270b7cff2d5458f4ad2f4b8849112d5b4335e09d3b4cca41b3a1f4e10c"
+    },
+    {
+      "path": "examples/basic_usage.py",
+      "bytes": 645,
+      "sha256": "a21f230ec8428bebe832c8c952bd946d1d442c86cfbd0d317e903ffcbce3cb82"
+    },
+    {
+      "path": "src/afv_benchmark/__init__.py",
+      "bytes": 402,
+      "sha256": "8028a9c67feff8c6af98514b34c9d5fc4edf9e27317ea2b17d138993e3a4688e"
+    },
+    {
+      "path": "src/afv_benchmark/__main__.py",
+      "bytes": 114,
+      "sha256": "6a5254975902b33d76ad42f81b86bb668a830d12abdba09cf695cfa91f7a0b31"
+    },
+    {
+      "path": "src/afv_benchmark/aggregation.py",
+      "bytes": 4197,
+      "sha256": "e9a261f5187c0327965c914e1859fde63029bee19286c10bbe0766e4c1ef95d5"
+    },
+    {
+      "path": "src/afv_benchmark/demo.py",
+      "bytes": 4964,
+      "sha256": "6a295c87f98424e5012f53027e22c26d6982609419c3b860e983d9f581e52a9a"
+    },
+    {
+      "path": "src/afv_benchmark/estimators.py",
+      "bytes": 8964,
+      "sha256": "f76073ccd12b76f5a0c8dd79cfb103c17961653b58223859437fe9a309380c61"
+    },
+    {
+      "path": "src/afv_benchmark/synthetic.py",
+      "bytes": 3461,
+      "sha256": "8c65255db8e762fe05ca86f8ba5ab2efcb4b8af77a836c5073986bb92b1f2f3f"
+    },
+    {
+      "path": "tests/test_aggregation.py",
+      "bytes": 3038,
+      "sha256": "085c8a345b8bf87050d0ec70a6638a6193af930f986faad41033129402bfd9c1"
+    },
+    {
+      "path": "tests/test_demo.py",
+      "bytes": 2227,
+      "sha256": "2d87d4047ce2815feaee86bc4b51d68f8f937d8d8f3e0ed7dcd39432a6bc5809"
+    },
+    {
+      "path": "tests/test_estimators.py",
+      "bytes": 2517,
+      "sha256": "0936afec74fe22d971360e5cc95a072dac55b1bb3f34c6479586314ba3be39d7"
+    }
+  ],
+  "repository": "https://github.com/canathustra/afv-benchmark"
+}
