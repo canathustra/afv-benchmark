@@ -45,6 +45,10 @@ no external recording and generates only artificial signals. Its JSON and CSV
 outputs are numerical illustrations, not a scientific method ranking or clinical
 validation study. See [methods and interpretation](docs/METHODS.md).
 
+The demo creates `demo-output/summary.json` and
+`demo-output/window_results.csv`. Choose a new output directory for each run;
+the demo refuses to overwrite an existing directory.
+
 ## Use the numerical core
 
 ```python
@@ -65,6 +69,9 @@ summary = summarize_afv(
 print(summary)
 ```
 
+See [the complete synthetic API example](examples/basic_usage.py) for another
+example, including how opposing channel changes can cancel in the bilateral mean.
+
 `estimate_window` expects one finite real 10-second channel at 200 Hz. For a real
 research recording, appropriate preprocessing, channel/reference definition,
 window selection, and evidence of physiological eligibility are the caller's
@@ -84,6 +91,11 @@ was measurable.
 - [Roadmap and release boundaries](docs/ROADMAP.md)
 - [Verification scope](docs/VERIFICATION.md)
 - [Contributing](CONTRIBUTING.md)
+- [Release history](CHANGELOG.md)
+- [Initial 0.1.0 release manifest](https://github.com/canathustra/afv-benchmark/blob/a2cb224e2d769a32e0a941be8f3f9cc43823aa93/RELEASE_MANIFEST.json)
+
+The release manifest records the original 0.1.0 contents and hashes.
+It describes that release snapshot, rather than later documentation updates.
 
 Only software and synthetic examples are included. No clinical recordings,
 participant-level results, manuscript drafts, or private research documents are
@@ -102,3 +114,10 @@ dependencies retain their own licenses. The public repository is
 Development and packaging used AI coding assistance. Numerical code, software
 checks, and scientific claims remain the maintainers' responsibility. Tests
 establish bounded software behavior, not biological or clinical validity.
+
+## Related projects
+
+- [Clinical Neurology Portfolio](https://github.com/canathustra/clinical-neurology-portfolio): interactive teaching materials and the public educational archive.
+- [NeuroEDX Lab](https://github.com/canathustra/neuroedx-lab): synthetic EMG/NCS teaching tools.
+
+These are separate educational projects; their inclusion does not establish validation of AFV methods.
